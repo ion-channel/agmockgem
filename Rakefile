@@ -4,8 +4,8 @@ require "bundler/gem_tasks"
 require 'rake/testtask'
  
 Rake::TestTask.new do |t|
-  t.libs << 'lib/agmock'
-  t.test_files = FileList['test/lib/agmock/*_test.rb']
+  t.libs << 'lib/agmockgem'
+  t.test_files = FileList['test/lib/agmockgem/test_*.rb']
   t.verbose = true
 end
  

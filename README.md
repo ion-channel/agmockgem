@@ -1,4 +1,4 @@
-# Agmock
+# agmockgem
 
 Mock gem used to demonstrate AirGap workflows
 
@@ -6,7 +6,7 @@ Mock gem used to demonstrate AirGap workflows
 
 Add this line to your application's Gemfile:
 
-    gem 'agmock'
+    gem 'agmockgem'
 
 And then execute:
 
@@ -14,8 +14,8 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install agmock
+    $ gem install agmockgem
 
 ## Usage
 
-  puts Agmock::VERSION
+  puts Agmockgem::VERSION
