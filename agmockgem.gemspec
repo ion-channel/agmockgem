@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'agmockgem/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "agmockgemn"
+  spec.name          = "agmockgem"
   spec.version       = Agmockgem::VERSION
   spec.authors       = ["Kit Plummer"]
   spec.email         = ["kit@airgap.io"]
