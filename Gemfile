@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in agmock.gemspec
-gemspec
+gem 'simplecov', :require => false, :group => :test
+gem 'reek', :require => false, :group => :test
