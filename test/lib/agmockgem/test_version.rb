@@ -1,11 +1,11 @@
 require_relative '../../test_helper'
- 
+
 describe Agmockgem do
- 
+
   it "must be nil" do
-    Agmockgem::VERSION.must_be_nil
+    Agmockgem::VERSION.should == 200
   end
   it "must equal 1" do
-    Agmockgem::VERSION.must_equal "1"
-  end 
+    Agmockgem::VERSION.should == 1
+  end
 end
