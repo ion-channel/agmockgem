@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 module Agmockgem
-  VERSION = "0.0.25"
+  VERSION = "0.0.26"
 end
