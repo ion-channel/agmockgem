@@ -1,3 +1,3 @@
 module Agmockgem
-  VERSION = "0.0.29"
+  VERSION = "0.0.32"
 end
