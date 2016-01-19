@@ -17,5 +17,5 @@ source 'https://rubygems.org'
 
 gem 'rake'
 gem 'simplecov', :require => false, :group => :test
-gem 'reek', :version -> '3.8.2', :require => false, :group => :test
+gem 'reek', :version => '3.8.2', :require => false, :group => :test
 gem 'minitest', :require => false, :group => :test
